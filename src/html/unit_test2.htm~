@@ -1,0 +1,17 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="utf-8" />
+
+<script type="text/javascript" src="library.js"> 
+</script>  
+<script>
+    var cache = new CachePool();               
+    var item = cache.getItem('cache_id');  
+    item.set(Math.random())                
+        alert("item1=" + item.get());      
+    var item2 = cache.getItem('cache_id'); 
+        alert("item2=" + item.get());      
+</script>
+
+По результатам данного теста можно сказать, что .... тут я что-то скажу...
